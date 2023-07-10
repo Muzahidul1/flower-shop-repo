@@ -19,7 +19,7 @@
 .container{
     width: 85%;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1400px;
 }
 
 .flex{
@@ -28,7 +28,7 @@
   justify-content: space-between;
 }
 
-.pramary-color{
+.primary-color{
   color: rgb(229, 84, 115);
 }
 
@@ -37,6 +37,28 @@
   padding: 15px;
   border: none;
   border-radius: 5px;
+  background-color:  #E55473;
+  color: white;
+  font-size: 20px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.sub-heading{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 15px 0;
+}
+
+.paragraph-text{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0;
 }
 
 /* header style starts */
@@ -120,3 +142,80 @@
 
 
 /* banner style ends */
+
+/* feature section style start */
+
+
+.feature-section-text{
+  margin-top: 80px;
+}
+
+.feature-images{
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.feature-img-container{
+  width: 400px;
+  height: 450px;
+  border-radius: 300px 300px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.feature-img{
+  width: 300px;
+  /* height: 300px; */
+}
+
+.feature-images h3{
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin: 30px 0;
+}
+
+.bg-pink{
+  background-color: rgba(167, 33, 98, 0.15);
+}
+
+.bg-green{
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+.bg-blue{
+  background-color: rgba(5, 151, 160, 0.15);
+}
+
+.feature-text{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* feature section style end */
+
+/* sale section style starts */
+
+.sale-section{
+  background-color: rgba(229, 84, 115, 0.05);
+}
+
+.sale-container{
+  justify-content: center;
+  gap: 50px;
+  padding: 100px 0;
+  margin: 50px 0;
+}
+
+.sale-text{
+  width: 40%;
+}
+
+/* sale section style end */
