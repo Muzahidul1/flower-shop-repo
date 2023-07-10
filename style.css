@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px; 
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pramary-color{
+  color: rgb(229, 84, 115);
+}
+
+
+/* header style starts */
+
+.header{
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.list-item{
+  list-style: none;
+}
+
+.nav-list{
+  gap: 30px;
+}
+
+.list-item a,
+.logo{
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.logo{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+
+
+.list-item a:hover,
+.list-item a:focus{
+  color: rgb(229, 84, 115);
+}
+
+
+/* header style starts */
