@@ -50,7 +50,7 @@
   color: #272727;
   font-size: 40px;
   font-weight: 900;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .paragraph-text{
@@ -58,13 +58,15 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
+
+
 
 /* header style starts */
 
 .header{
-  background-color: #fff;
+  background-color: white;
   padding: 20px 0;
 }
 
@@ -227,4 +229,47 @@
   width: 200px;
 }
 
-/* instagram section style starts */
+/* instagram section style end */
+
+/* subscribe section style starts */
+
+.subscribe-section{
+  margin: 50px 0;
+  background-image: url("/asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px 0;
+}
+
+
+.subscribe-section input{
+  padding: 15px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  width: 500px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+/* subscribe section style end */
+
+/* footer section style starts */
+
+.footer{
+  background-color: #111010;
+  padding: 100px 0;
+}
+
+.footer h2{
+  color: white;
+}
+
+.footer p{
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.footer small{
+  color: rgba(255, 255, 255, 0.40);
+}
